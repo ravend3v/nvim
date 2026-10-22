@@ -66,3 +66,6 @@ map("n", "<leader>cd", function()
   vim.cmd("cd " .. vim.fn.getcwd())
 end, opts("CD"))
 
+
+-- Ctrl+C copies the selection to the system clipboard
+map("v", "<C-c>", '"+y', opts("Copy to clipboard"))

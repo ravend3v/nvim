@@ -46,6 +46,10 @@ opt.confirm = true
 
 opt.mouse = "a"
 
+-- Shift+arrows start Visual mode; unshifted movement ends it
+opt.keymodel = { "startsel", "stopsel" }
+opt.selectmode = ""
+
 opt.clipboard = "unnamedplus"
 
 opt.completeopt = {
