@@ -9,7 +9,6 @@ Personal Neovim config (Neovim 0.11+) using [lazy.nvim](https://github.com/folke
 - **Editing**: blink.cmp (completion), nvim-autopairs, conform (formatting)
 - **LSP / syntax**: mason, nvim-lspconfig, treesitter
 - **Git**: gitsigns, lazygit
-- **AI**: copilot.vim, codecompanion
 
 ## Install
 
